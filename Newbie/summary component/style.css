@@ -8,6 +8,12 @@
     font-family: 'Nunito', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 header {
     background-image: linear-gradient(to bottom , #6743FF , #302AE8);
