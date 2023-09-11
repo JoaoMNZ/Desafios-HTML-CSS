@@ -25,8 +25,12 @@ body {
     border-radius: 20px 20px 10px 10px;
 }
 
-.imagem > img {
-    max-width: 330px;
+.imagem {
+    background-image: url(images/image-product-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 230px;
+    background-position: center center;
     border-radius: 20px 20px 0px 0px;
 }
 

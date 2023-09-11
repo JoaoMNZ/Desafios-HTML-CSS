@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) {
+    body {
+        flex-direction: row;
+        width: 570px;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .imagem {
+        border-radius: 20px 0px 0px 20px;
+        background-image: url('images/image-product-desktop.jpg');
+        height: 379px;
+        width: 300px;
+    }
+    .principal {
+        display: flex;
+        flex-wrap: wrap;
+        width: 230px;
+    }
+    .principal > p {
+        margin-top: 30px;
+    }
+    .principal > p.diff {
+        margin-top: 7px;
+    }
+
+    .botao {
+        width: 220px;
+    }
+
+    .botao:hover {
+        background-color: #204638;
+    }
+
+}
