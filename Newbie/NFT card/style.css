@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body, html {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #0D1A2D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 330px;
+    background-color: #15273F;
+    border-radius: 15px;
+}
+
+figure {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.img > img {
+    position: relative;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.img > figcaption {
+    position: absolute;
+    color: white;
+    opacity: 0;
+    height: 290px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+figcaption:hover {
+    opacity: 1;
+    background-color: #2af0f37d;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+img:hover {
+    background-color: #2AEEF3;
+}
+
+.conteudo {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.conteudo > h1 {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.conteudo > h1:hover {
+    color: #2AEEF3;
+    cursor: pointer;
+}
+
+.conteudo > p {
+    margin-top: 10px;
+    color: #90A7C6;
+    font-size: 1em;
+}
+
+.preco {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #90a7c645;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.preco > p {
+    color: #00FEF7;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.preco > p.diff {
+    font-weight: normal;
+    color: #90A7C6;
+}
+
+.creator {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.creator > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.creator > p {
+    margin-left: 10px;
+    color: #90A7C6;
+}
+
+.creator > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+.creator > p > a:hover {
+    color: #2AEEF3;
+}
+
+p > svg {
+    margin-right: 5px;
+}
+
+
