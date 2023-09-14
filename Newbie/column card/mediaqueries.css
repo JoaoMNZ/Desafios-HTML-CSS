@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) {
+    main {
+        display: flex;
+        width: auto;
+    }
+
+    .orange {
+        width: 285px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .blue {
+        width: 290px;
+    }
+
+    .green {
+        width: 290px;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .orange > p {
+        margin-bottom: 60px;
+        margin-right: 0px;
+    }
+
+    .blue > p {
+        margin-bottom: 60px;
+        margin-right: 0px;
+    }
+
+    .green > p {
+        margin-bottom: 60px;
+        margin-right: 0px;
+    }
+}
