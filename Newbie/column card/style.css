@@ -88,10 +88,32 @@ button {
     font-weight: bolder;
 }
 
+.orange > button:hover {
+    background-color: #E28525;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
 .blue > button {
     color: #016972;
+}
+
+.blue > button:hover {
+    background-color: #016972;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 .green > button {
     color: #00403F;
 }
+
+.green > button:hover {
+    background-color: #00403F;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
