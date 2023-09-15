@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6EFF6;
+}
+
+main {
+    width: 330px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.header {
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.header > h2 {
+    color: #3CABA7;
+    margin-bottom: 20px;
+}
+
+.header > p {
+    color: #C3D75D;
+    margin-bottom: 20px;
+}
+
+.header > p.texto {
+    color: #A9ADB9;
+    margin-bottom: 0px;
+}
+
+.price {
+    padding: 10px 20px 20px 20px;
+    background-color: #2BB3B1;
+    display: flex;
+    flex-direction: column;
+}
+
+.price > h2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.price > h2.diff {
+    margin-bottom: 5px;
+}
+
+.price > h2.diff > p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.6em;
+    margin-left: 10px;
+}
+
+.price > p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+.price > button {
+    background-color: #BEDF32;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    padding: 10px 120px 10px 120px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    align-self: center;
+}
+
+.price > button:hover {
+    cursor: pointer;
+    background-color: #afcc2d;
+}
+
+.about {
+    padding: 10px 100px 20px 20px;
+    background-color: #4ABEBD;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.about > h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.about > p {
+    color: rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 640px;
+    }
+
+    .header {
+        padding-left: 30px;
+    }
+
+    .header > h2 {
+        font-size: 2em;
+        
+    }
+
+    .header > p {
+        font-size: 1em;
+        font-weight: bolder;
+    }
+
+    .header > p.texto {
+        margin-bottom: 20px;
+    }
+
+    .bloco {
+        display: flex;
+    }
+
+    .price {
+        border-radius: 0px 0px 0px 10px;
+        padding: 30px;
+        width: 320px;
+    }
+
+    .price > p {
+        margin-top: 15px;
+    }
+
+    .price > button {
+        padding-right: 110px;
+        padding-left: 110px;
+        
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .about {
+        border-radius: 0px 0px 10px 0px;
+        padding: 30px;
+        width: 320px;
+    }
+    
+}
