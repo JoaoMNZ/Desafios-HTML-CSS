@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 1100px;
+    }
+    .bloco {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header {
+        width: 410px;
+        margin-top: 0px;
+        margin-right: 100px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+
+    .header > h1 {
+        text-align: left;
+        margin-right: 100px;
+        font-size: 2.5em;
+        line-height: 40px;
+    }
+
+    .header > p {
+        text-align: left;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .rating {
+        margin-bottom: 0px;
+        margin-right: 10px;
+    }
+
+    .rating > .teste {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .teste > p {
+        margin-left: 5px;
+    }
+
+    section#um {
+        margin-right: 80px;
+    }
+
+    section#dois {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    section#tres {
+        margin-left: 80px;
+    }
+
+    .coment {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .square { 
+        margin: 0px;
+        margin-right: 20px;
+        padding: 10px;
+    }
+
+    section#one {
+        margin-bottom: 30px;
+    }
+
+    section#two {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    section#three {
+        margin-top: 30px;
+    }
+}
