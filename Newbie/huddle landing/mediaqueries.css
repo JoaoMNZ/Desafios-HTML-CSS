@@ -1,5 +1,66 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 769px) {
+    html, body {
+        display: block;
+    }
 
+    main {
+        width: 100%;
+        height: 100vh;
+        flex-direction: row;
+        padding: 0px;
+    }
+
+    .imagem {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 80px;
+    }
+
+    .logo {
+        width: 300px;
+        height: 50px;
+        background-size: 70%;
+    }
+
+    .mock {
+        background-size: 100%;
+        height: 500px;
+    }
+
+    .info {
+        margin-left: 60px;
+        width: 465px;
+        align-items: flex-start;
+        margin-bottom: 85px;
+    }
+
+    .info > h1 {
+        font-size: 2.5em;
+        text-align: left;
+    }
+    
+    .info > p {
+        font-size: 1em;
+        text-align: left;
+        margin-bottom: 30px;
+        text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .info > button {
+        padding: 14px;
+        width: 170px;
+        font-size: 1em;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+        margin-bottom: 0px;
+        border-radius: 25px;
+    }
+
+    .social {
+        align-self: self-end;
+        margin-right: 80px;
+        margin-bottom: 40px;
+    }
 }
