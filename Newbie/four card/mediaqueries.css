@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 769px) {
+    .texto {    
+        width: 400px;
+    }
+
+    .texto > p {
+        margin-left: 40px;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    .superior {
+        flex-direction: column;
+    }
+
+    .supervisor {
+        order: 1;
+    }
+
+    .vertical {
+        order: 2;
+    }
+
+    .calculator {
+        order: 3;
+    }
+
+}

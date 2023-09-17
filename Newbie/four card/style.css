@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html, body {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.superior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.supervisor {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px 40px 40px;
+    background-color: white;
+    border-top: 5px solid #43B5B5;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.supervisor > h1 {
+    font-size: 1.5em;
+    color: #3E4150;
+    margin-bottom: 10px;
+}
+
+.supervisor > p {
+    color: #A4A4A6;
+    margin-bottom: 40px;
+}
+
+.supervisor > svg {
+    align-self: flex-end;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px 40px 40px;
+    background-color: white;
+    border-top: 5px solid #3C82BE;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    order: 3;
+}
+
+.calculator > h1 {
+    font-size: 1.5em;
+    color: #3E4150;
+    margin-bottom: 10px;
+}
+
+.calculator > p {
+    color: #A4A4A6;
+    margin-bottom: 40px;
+}
+
+.calculator > svg {
+    align-self: flex-end;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    order: 1;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.builder {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px 40px 40px;
+    background-color: white;
+    border-top: 5px solid #AB4747;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.builder > h1 {
+    font-size: 1.5em;
+    color: #3E4150;
+    margin-bottom: 10px;
+}
+
+.builder > p {
+    color: #A4A4A6;
+    margin-bottom: 40px;
+}
+
+.builder > svg {
+    align-self: flex-end;
+}
+
+.karma {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px 40px 40px;
+    background-color: white;
+    border-top: 5px solid #F4AC36;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.karma > h1 {
+    font-size: 1.5em;
+    color: #3E4150;
+    margin-bottom: 10px;
+}
+
+.karma > p {
+    color: #A4A4A6;
+    margin-bottom: 40px;
+}
+
+.karma > svg {
+    align-self: flex-end;
+}
+
+.texto {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 500px;
+}
+
+.texto > h1 {
+    text-align: center;
+    color: #A4A4A6;
+    font-weight: normal;
+    font-size: 1.6em;
+}
+
+.texto > h1.diff {
+    color: #3E4150;
+    font-weight: bolder;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+.texto > p {
+    text-align: center;
+    color: #8c8c8c;
+    font-weight: normal;
+}
